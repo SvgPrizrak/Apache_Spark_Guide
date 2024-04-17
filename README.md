@@ -8,5 +8,9 @@
 * Jupyter Notebook (проще всего получить, скачав [Anaconda](https://www.anaconda.com/), чуть сложнее - [Miniconda](https://docs.anaconda.com/free/miniconda/index.html);
 * Hadoop и winutils.exe (см. ниже в гайде).
 
-## 1. Установка Docker и Docker Compose
-Все необходимое есть на сайте - они ставятся сразу вместе: [скачать](https://www.docker.com/products/docker-desktop/).
+Перед установкой всех программ следует внимательно следить за их расположением на жестком диске, поскольку это потребуется для добавления директорий в `Path`!!!
+
+## 1. Установка Python и Java Development Kit
+Проще всего - установить согласно инструкции, никаких проблем с установкой возникнуть не должно.
+
+## 2. Установка Apache Spark
