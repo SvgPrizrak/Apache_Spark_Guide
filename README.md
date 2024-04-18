@@ -48,5 +48,10 @@ SPARK_HOME = путь до папки с Apache Spark (в моем случае 
   <img width="600" height="250" src="https://github.com/SvgPrizrak/Apache_Spark_Guide/blob/main/pictures/spark-shell.png">
 </p>
 <p align="center">
-  <img width="550" height="250" src="https://github.com/SvgPrizrak/Apache_Spark_Guide/blob/main/pictures/localhost.png">
+  <img width="600" height="220" src="https://github.com/SvgPrizrak/Apache_Spark_Guide/blob/main/pictures/localhost.png">
 </p>
+
+После проверки в командной строке зайти в `Jupyter Notebook` (если установлена Anaconda, то можно просто это сделать через поиск ОС), создать блокнот и запустить команду `!pip install pyspark` для установки пакетов (плюс так можно удостовериться в том, что Apache Spark будет работать правильно).
+
+## 6. Конфликты Apache Spark и Apache Hadoop
+При неверном выборе версии Apache Hadoop у меня возникала единственная проблема - я не мог сохранить какой-нибудь датафрейм в формате .csv и .xlsx. Для проверки этого следует запустить простой ноутбук `test_pyspark.ipynb`, который я приложу к данному гайду. Обычно конфликт возникает при выборе слишком новой версии Hadoop из 2 репозитория из п.3 гайда (с первым репозиторием таких проблем не наблюдалось). Решение проблемы - взять вместо `hadoop-3.3.5/bin` другую версию по убыванию (`hadoop-3.2.2/bin`), полностью выполнить все процедуры из п.3 гайда с другой версией Hadoop.
