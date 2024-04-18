@@ -44,3 +44,6 @@ SPARK_HOME = путь до папки с Apache Spark (в моем случае 
 
 ## 5. Проверка работоспособности через Jupyter Notebook и командную строку
 После всех манипуляций следует зайти в командую строку от имени администратора и проверить запуск Spark командой `spark-shell`
+<p align="center">
+  <img width="600" height="250" src="https://github.com/SvgPrizrak/Apache_Spark_Guide/blob/main/pictures/spark-shell.png">
+</p>
