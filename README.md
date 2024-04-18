@@ -5,7 +5,7 @@
 * Java Development Kit ([скачать](https://www.oracle.com/cis/java/technologies/downloads/), я брал самую последнюю версию на момент написания гайда 22.0.1);
 * Apache Spark ([скачать](https://spark.apache.org/), я брал самую последнюю версию на момент написания гайда 3.5.1);
 * Python ([скачать](https://www.python.org/), можно взять самую новую версию проблем быть не должно - на момент написания гайда 3.12.3);
-* Jupyter Notebook (проще всего получить, скачав [Anaconda](https://www.anaconda.com/), чуть сложнее - [Miniconda](https://docs.anaconda.com/free/miniconda/index.html);
+* Jupyter Notebook (проще всего получить, скачав [Anaconda](https://www.anaconda.com/), чуть сложнее - [Miniconda](https://docs.anaconda.com/free/miniconda/index.html));
 * Hadoop и winutils.exe (см. ниже в гайде).
 
 Перед установкой всех программ следует внимательно следить за их расположением на жестком диске, поскольку это потребуется для добавления директорий в `Path`!!!
