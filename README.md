@@ -27,7 +27,7 @@
 ## 4. Добавление в PATH
 Далее следует зайти в `Мой компьютер` -> `Свойства` -> `Дополнительно` -> `Переменные среды` - для разных версий Windows методология может немного отличаться (например, в ОС Windows 11 может выскочить окно, в котором нужно выбрать пункт `Дополнительные параметры системы`), но в целом принцип нахождения аналогичен. 
 
-Далее следует создать 4 переменных среды в верхнем окне переменных среды:
+Далее следует создать 4 переменных среды в верхнем окне переменных среды (верхнее окно):
 ```python
 HADOOP_HOME = путь до папки c Apache Hadoop (в моем случае - C:\Program Files\Apache Hadoop)
 PYSPARK_HOME = путь до папки с Python (в моем случае - C:\Users\Имя вашего пользователя\AppData\Local\Programs\Python\Python312\python.exe)
@@ -35,7 +35,7 @@ JAVA_HOME = путь до папки с JDK (C:\Program Files\Java\jdk-22)
 SPARK_HOME = путь до папки с Apache Spark (в моем случае - C:\Program Files\Apache Spark)
 ```
 
-Кроме того, следует создать 3 дополнительных системных переменных в окне системных переменных, нажав на `Path` -> `Изменить` -> `Создать`:
+Кроме того, следует создать 3 дополнительных системных переменных в окне системных переменных (нижнее окно), нажав на `Path` -> `Изменить` -> `Создать`:
 ```python
 %HADOOP_HOME%\bin
 %JAVA_HOME%\bin
@@ -48,5 +48,5 @@ SPARK_HOME = путь до папки с Apache Spark (в моем случае 
   <img width="600" height="250" src="https://github.com/SvgPrizrak/Apache_Spark_Guide/blob/main/pictures/spark-shell.png">
 </p>
 <p align="center">
-  <img width="600" height="250" src="https://github.com/SvgPrizrak/Apache_Spark_Guide/blob/main/pictures/localhost.png">
+  <img width="550" height="250" src="https://github.com/SvgPrizrak/Apache_Spark_Guide/blob/main/pictures/localhost.png">
 </p>
