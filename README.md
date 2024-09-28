@@ -2,7 +2,7 @@
 Этот гайд предназначен для тех, кто хочет развернуть Apache Spark. Все действия выполнялись на ОС Windows 10/11, в остальных ОС установку можно выполнять через командную строку, а не графический интерфейс согласно официальной [документации](https://spark.apache.org/).
 
 Необходимый стек для выполнения процедур: 
-* Java Development Kit ([скачать](https://www.oracle.com/cis/java/technologies/downloads/), я брал самую последнюю версию на момент написания гайда 23);
+* Java Development Kit ([скачать](https://www.oracle.com/cis/java/technologies/downloads/), я брал самую последнюю версию на момент написания гайда 22.0.2);
 * Apache Spark ([скачать](https://spark.apache.org/), я брал самую последнюю версию на момент написания гайда 3.5.3);
 * Python ([скачать](https://www.python.org/), можно взять самую новую версию проблем быть не должно - на момент написания гайда 3.12.6);
 * Jupyter Notebook (проще всего получить, скачав [Anaconda](https://www.anaconda.com/) - иногда могут быть проблемы при тестировании, поэтому можно поставить [архивную версию 2024.2.1](https://repo.anaconda.com/archive/) и обновить пакеты посредством команды `conda upgrade --all` в Anaconda Prompt - лично сталкивался на некоторых компьютерах из-за несовместимости с Python 3.12);
@@ -13,7 +13,7 @@
 ## 1. Установка Python, Java Development Kit (JDK) и Anaconda
 Проще всего установить согласно инструкции, никаких проблем с установкой возникнуть не должно:
 * в моем случае путь для Python - `C:\Users\Имя вашего пользователя\AppData\Local\Programs\Python\Python312\python.exe`;
-* в моем случае путь для JDK - `C:\Program Files\Java\jdk-23`;
+* в моем случае путь для JDK - `C:\Program Files\Java\jdk-22`;
 * путь для Anaconda на установку Spark не влияет, она нужна для запуска `Jupyter Notebook`.
 
 ## 2. Установка Apache Spark
@@ -33,7 +33,7 @@ HADOOP_HOME = путь до папки c Apache Hadoop (в моем случае
 PYSPARK_HOME = путь до папки с Python (в моем случае - C:\Users\Имя вашего пользователя\AppData\Local\Programs\Python\Python312\python.exe)
 или (если есть проблемы с совместимостью с Python 3.12, тогда ставим путь до Python 3.11 внутри Anaconda)
 PYSPARK_HOME = путь до папки с Python внутри Anaconda (в моем случае - C:\Users\Имя вашего пользователя\ProgramData\anaconda3\python.exe)
-JAVA_HOME = путь до папки с JDK (C:\Program Files\Java\jdk-23)
+JAVA_HOME = путь до папки с JDK (C:\Program Files\Java\jdk-22)
 SPARK_HOME = путь до папки с Apache Spark (в моем случае - C:\Program Files\Apache Spark)
 ```
 
