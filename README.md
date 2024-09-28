@@ -52,7 +52,7 @@ set PATH=%PATH%
 ## 5. Проверка работоспособности через Jupyter Notebook и командную строку
 После всех манипуляций следует зайти в командую строку от имени администратора и проверить запуск Spark командой `spark-shell` и после этого запустить в браузере `localhost:4040`.
 <p align="center">
-  <img width="600" height="250" src="https://github.com/SvgPrizrak/Apache_Spark_Guide/blob/main/pictures/spark-shell.png">
+  <img width="600" height="300" src="https://github.com/SvgPrizrak/Apache_Spark_Guide/blob/main/pictures/spark-shell.png">
 </p>
 <p align="center">
   <img width="600" height="220" src="https://github.com/SvgPrizrak/Apache_Spark_Guide/blob/main/pictures/localhost.png">
