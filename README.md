@@ -5,14 +5,14 @@
 * Java Development Kit ([скачать](https://www.oracle.com/cis/java/technologies/downloads/), я брал самую последнюю версию на момент написания гайда 22.0.2, есть версия 23, но она пока что не работает стабильно);
 * Apache Spark ([скачать](https://spark.apache.org/), я брал самую последнюю версию на момент написания гайда - 3.5.4);
 * Python ([скачать](https://www.python.org/), можно взять самую новую версию проблем быть не должно - на момент написания гайда 3.13.1);
-* Jupyter Notebook (проще всего получить, скачав [Anaconda](https://www.anaconda.com/) - иногда могут быть проблемы при тестировании, поэтому можно поставить [архивную версию 2024.2.1](https://repo.anaconda.com/archive/) и обновить пакеты посредством команды `conda upgrade --all` в Anaconda Prompt - лично сталкивался на некоторых компьютерах из-за несовместимости с Python 3.12);
+* Jupyter Notebook (проще всего получить, скачав [Anaconda](https://www.anaconda.com/) - иногда могут быть проблемы при тестировании, поэтому можно поставить [архивную версию 2024.2.1](https://repo.anaconda.com/archive/) и обновить пакеты посредством команды `conda upgrade --all` в Anaconda Prompt - лично сталкивался на некоторых компьютерах из-за несовместимости с Python 3.13);
 * Hadoop и winutils.exe (см. ниже в гайде).
 
 Перед установкой всех программ следует внимательно следить за их расположением на жестком диске, поскольку это потребуется для добавления директорий в `PATH`!!!
 
 ## 1. Установка Python, Java Development Kit (JDK) и Anaconda
 Проще всего установить согласно инструкции, никаких проблем с установкой возникнуть не должно:
-* в моем случае путь для Python - `C:\Users\Имя вашего пользователя\AppData\Local\Programs\Python\Python312\python.exe`;
+* в моем случае путь для Python - `C:\Users\Имя вашего пользователя\AppData\Local\Programs\Python\Python313\python.exe`;
 * в моем случае путь для JDK - `C:\Program Files\Java\jdk-22`;
 * путь для Anaconda на установку Spark не влияет, она нужна для запуска `Jupyter Notebook`.
 
@@ -30,7 +30,7 @@
 Далее следует создать 4 переменных среды в верхнем окне переменных среды (верхнее окно):
 ```python
 HADOOP_HOME = путь до папки c Apache Hadoop (в моем случае - C:\Program Files\Apache Hadoop)
-PYSPARK_HOME = путь до папки с Python (в моем случае - C:\Users\Имя вашего пользователя\AppData\Local\Programs\Python\Python312\python.exe)
+PYSPARK_HOME = путь до папки с Python (в моем случае - C:\Users\Имя вашего пользователя\AppData\Local\Programs\Python\Python313\python.exe)
 или (если есть проблемы с совместимостью с Python 3.12, тогда ставим путь до Python 3.11 внутри Anaconda)
 JAVA_HOME = путь до папки с JDK (C:\Program Files\Java\jdk-22)
 SPARK_HOME = путь до папки с Apache Spark (в моем случае - C:\Program Files\Apache Spark)
