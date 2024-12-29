@@ -32,7 +32,6 @@
 HADOOP_HOME = путь до папки c Apache Hadoop (в моем случае - C:\Program Files\Apache Hadoop)
 PYSPARK_HOME = путь до папки с Python (в моем случае - C:\Users\Имя вашего пользователя\AppData\Local\Programs\Python\Python312\python.exe)
 или (если есть проблемы с совместимостью с Python 3.12, тогда ставим путь до Python 3.11 внутри Anaconda)
-PYSPARK_HOME = путь до папки с Python внутри Anaconda (в моем случае - C:\Users\Имя вашего пользователя\ProgramData\anaconda3\python.exe)
 JAVA_HOME = путь до папки с JDK (C:\Program Files\Java\jdk-22)
 SPARK_HOME = путь до папки с Apache Spark (в моем случае - C:\Program Files\Apache Spark)
 ```
